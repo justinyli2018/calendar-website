@@ -73,30 +73,30 @@ Instead of standard chronological repetition (e.g., "every Tuesday"), classes an
 
 To avoid getting overwhelmed, we will build this in iterative phases. The MVP focuses strictly on getting the app functional for daily use. Ignore the style of the UI and use basic objects to start out.
 
-Phase 1: The Foundation (Core UI & Firebase)
+**Phase 1**: The Foundation (Core UI & Firebase)
 
-[ ] Initialize Firebase project and Firestore database.
+ - Initialize Firebase project and Firestore database.
 
-[ ] Build the basic mobile-first layout (Header, To-Do List view, Calendar view).
+ - Build the basic mobile-first layout (Header, To-Do List view, Calendar view).
 
-[ ] Implement basic CRUD operations (Create, Read, Update, Delete) for standalone to-do items.
+ - Implement basic CRUD operations (Create, Read, Update, Delete) for standalone to-do items.
 
-[ ] Host on Firebase to verify access on school network.
+ - Host on Firebase to verify access on school network.
 
-Phase 2: The Schedule
+**Phase 2**: The Schedule
 
-[ ] Create the Generator database structure and populate it for the current semester.
+ - Create the Generator database structure and populate it for the current semester.
 
-[ ] Create the UI and backend needed to create standalone events, including events that occur over a time range, single time, and all-day or multiple day events.
+ - Create the UI and backend needed to create standalone events, including events that occur over a time range, single time, and all-day or multiple day events.
 
-[ ] Implement the logic to display repeating classes based on the current day's "Type" (A/B) and handle the Custom/Modifier edge cases.
+ - Implement the logic to display repeating classes based on the current day's "Type" (A/B) and handle the Custom/Modifier edge cases.
 
-Phase 3: PWA & Smart Features (Polish)
+**Phase 3**: PWA & Smart Features (Polish)
 
-[ ] Add `manifest.json` and Service Worker to make it installable on your phone.
+ - Add `manifest.json` and Service Worker to make it installable on your phone.
 
-[ ] Integrate `chrono-node` for the smart, one-line text entry.
+ - Integrate `chrono-node` for the smart, one-line text entry.
 
-[ ] Implement the "Sleep Block" warning logic.
+ - Implement the "Sleep Block" warning logic.
 
-[ ] Write the fetch function to pull due dates from Canvas using the Access Token.
+ - Write the fetch function to pull due dates from Canvas using the Access Token.
